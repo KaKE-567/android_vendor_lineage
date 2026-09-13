@@ -81,8 +81,8 @@
     <!-- Flag indicating which package name can access the persistent data partition -->
     <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
 
-   <!-- Set icon mask to circle -->
-   <string name="config_icon_mask" translatable="false">"M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0"</string>
+   <!-- Set icon mask to OneUI squircle -->
+   <string name="config_icon_mask" translatable="false">"M50,0 C85,0 100,15 100,50 C100,85 85,100 50,100 C15,100 0,85 0,50 C0,15 15,0 50,0 Z"</string>
 
     <!-- Whether action menu items should be displayed in ALLCAPS or not.
          Defaults to true. If this is not appropriate for specific locales
@@ -90,7 +90,7 @@
     <bool name="config_buttonTextAllCaps">false</bool>
 
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
-    <bool name="config_useRoundIcon">true</bool>
+    <bool name="config_useRoundIcon">false</bool>
 
     <!-- Whether or not we should show the option to show battery percentage -->
     <bool name="config_battery_percentage_setting_available">false</bool>

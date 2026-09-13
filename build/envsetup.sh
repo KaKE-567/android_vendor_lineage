@@ -1,3 +1,11 @@
+# Disable RBE (Remote Build Execution) per serverhive owner request
+unset USE_RBE
+unset NINJA_REMOTE_NUM_JOBS
+for _rbe_var in $(compgen -v | grep -E '^RBE_'); do
+    unset "$_rbe_var"
+done
+unset _rbe_var
+
 function __print_lineage_functions_help() {
 cat <<EOF
 Additional LineageOS functions:
