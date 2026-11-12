@@ -18,21 +18,17 @@ PRODUCT_PACKAGES += \
 
 # AOSP packages
 PRODUCT_PACKAGES += \
-    ExactCalculator \
     Exchange2
 
 # Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX \
     Backgrounds \
-    Etar \
     Jelly \
     LockClock \
     Profiles \
     Seedvault \
     TrebuchetQuickStep \
-    WeatherProvider \
-    Ymusic
+    WeatherProvider
 
 # Accents
 PRODUCT_PACKAGES += \

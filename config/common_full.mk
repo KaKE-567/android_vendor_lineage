@@ -14,5 +14,4 @@ PRODUCT_PACKAGES += \
     LineageRubikFont
 
 # Recorder
-PRODUCT_PACKAGES += \
-    Recorder
+# PRODUCT_PACKAGES += Recorder
